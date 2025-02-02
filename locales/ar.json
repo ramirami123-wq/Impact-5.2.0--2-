@@ -1808,7 +1808,8 @@
         "subscriptions_management": {
           "title": "الاشتراك"
         },
-        "manage_order_label": "إدارة طلبك"
+        "manage_order_label": "إدارة طلبك",
+        "delivered_description_html": "لقد تم تسليم طلبك إلى العنوان الذي قدمته. إذا لم تتلقاه، أو إذا واجهت أي مشكلات أخرى، يرجى الاتصال بـ %{contact_us}."
       },
       "vaulted": {
         "change_button": "يتغير"
