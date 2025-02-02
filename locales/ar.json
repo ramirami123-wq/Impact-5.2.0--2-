@@ -1941,7 +1941,12 @@
         },
         "payment_method_selector_placeholder": "حدد طريقة الدفع البديلة (اختياري)",
         "payment_method_selector_no_alternative_payment": "لا يوجد طريقة استبدال",
-        "replace_method_with_new_method_description": "سيتم حذف {{currentPaymentMethodName}} واستبداله بـ {{newPaymentMethodName}} ."
+        "replace_method_with_new_method_description": "سيتم حذف {{currentPaymentMethodName}} واستبداله بـ {{newPaymentMethodName}} .",
+        "error_when_deleting": "نعتذر عن ذلك، ولكن حدث خطأ ما ولم نتمكن من حذف طريقة الدفع هذه. يُرجى المحاولة مرة أخرى لاحقًا أو تحديث الصفحة.",
+        "delete_and_replace_button": "حذف واستبدال",
+        "delete_and_replace_button_accessibility_label": "احذف {{currentPaymentMethodName}} واستبدله بـ {{newPaymentMethodName}} .",
+        "deleted_successfully": "تم حذف طريقة الدفع بنجاح.",
+        "loading_available_payment_methods_accessibility_label": "تحميل طرق الدفع المتاحة"
       },
       "title": "طرق الدفع",
       "add_payment_method_button": "إضافة طريقة الدفع",
@@ -1955,7 +1960,23 @@
       "back_button_accessibility_label": "العودة إلى {{paymentMethodStepTitle}}",
       "default": "تقصير",
       "generic_card": "بطاقة",
-      "expiration_warning_button_accessibility_label": "إظهار تحذير انتهاء الصلاحية لـ {{paymentMethodName}} الذي ينتهي بـ {{lastDigits}}"
+      "expiration_warning_button_accessibility_label": "إظهار تحذير انتهاء الصلاحية لـ {{paymentMethodName}} الذي ينتهي بـ {{lastDigits}}",
+      "add_payment_method": {
+        "title": "إضافة طريقة الدفع",
+        "payment_method_added_confirmation": "تمت إضافة طريقة الدفع",
+        "billing_address": {
+          "title": "عنوان الفاتورة",
+          "add_billing_address_button": "أضف جديدا",
+          "add_billing_address_button_accessibility_label": "إضافة عنوان إرسال الفواتير الجديد",
+          "choose_billing_address_from_list_button": "اختر من القائمة",
+          "choose_billing_address_from_list_button_accessibility_label": "اختر عنوان الفاتورة من القائمة",
+          "missing_billing_address_error_message": "الرجاء تحديد عنوان الفاتورة",
+          "default_checkbox": "تعيين كطريقة دفع افتراضية"
+        }
+      },
+      "three_d_secure": {
+        "title": "3D آمن"
+      }
     },
     "B2B": {
       "draft_order_details": {
@@ -2116,7 +2137,10 @@
       "saved_at": "تم الحفظ {{date}} في {{time}}",
       "viewing": "أنت تشاهد:",
       "not_available": "بيانات الملف الشخصي غير متوفرة",
-      "actions_button": "الإجراءات"
+      "actions_button": "الإجراءات",
+      "customize_button": "تخصيص",
+      "hide_bar": "إخفاء الشريط",
+      "navigate_to_admin": "انتقل إلى المشرف"
     },
     "active_inspector": {
       "extension": {
@@ -2142,6 +2166,100 @@
         "button": "تسجيل الخروج في كل مكان",
         "warning_message": "سيتم تسجيل خروجك على هذا الجهاز أيضًا."
       }
+    },
+    "payment_method_brands": {
+      "visa": "فيزا",
+      "mastercard": "ماستر كارد",
+      "americanexpress": "أمريكان إكسبريس",
+      "discover": "يكتشف",
+      "dinersclub": "داينرز كلوب",
+      "jcb": "جيه سي بي",
+      "elo": "إيلو",
+      "visaelectron": "فيزا الكترون",
+      "maestro": "المايسترو",
+      "forbrugsforeningen": "مقالات عن التحسين",
+      "dankort": "دانكورت",
+      "hipercard": "بطاقة هايبر كارد",
+      "unionpay": "يونيون باي",
+      "laser": "الليزر",
+      "shoppay": "تسوق الدفع",
+      "applepay": "آبل باي",
+      "googlepay": "جوجل باي",
+      "paypal": "باي بال",
+      "storecredit": "رصيد المتجر",
+      "bogus": "زائف"
+    },
+    "shop_policies": {
+      "legal_notice": "إشعار قانوني",
+      "privacy_policy": "سياسة الخصوصية",
+      "refund_policy": "سياسة الاسترجاع",
+      "shipping_policy": "سياسة الشحن",
+      "subscription_policy": "سياسة الإلغاء",
+      "terms_of_sale": "شروط البيع",
+      "terms_of_service": "شروط الخدمة"
+    },
+    "ui_components": {
+      "clipboardCopied": "تم نسخها",
+      "clipboardFailedToCopy": "فشل في النسخ",
+      "closeNotification": "يغلق",
+      "expandNotification": "عرض المزيد",
+      "closeModal": "يغلق",
+      "submit": "يُقدِّم",
+      "processing": "يعالج…",
+      "increase": "زيادة {{type}}",
+      "decrease": "تقليل {{type}}",
+      "minimumReached": "تم الوصول إلى الحد الأدنى من {{value}}",
+      "maximumReached": "تم الوصول إلى الحد الأقصى لـ {{value}}",
+      "january": "يناير",
+      "february": "فبراير",
+      "march": "يمشي",
+      "april": "ابريل",
+      "may": "يمكن",
+      "june": "يونيو",
+      "july": "يوليو",
+      "august": "أغسطس",
+      "september": "سبتمبر",
+      "october": "أكتوبر",
+      "november": "نوفمبر",
+      "december": "ديسمبر",
+      "monday": "الاثنين",
+      "tuesday": "يوم الثلاثاء",
+      "wednesday": "الأربعاء",
+      "thursday": "يوم الخميس",
+      "friday": "جمعة",
+      "saturday": "السبت",
+      "sunday": "الأحد",
+      "mondayAbbreviation": "شهر",
+      "tuesdayAbbreviation": "تو",
+      "wednesdayAbbreviation": "نحن",
+      "thursdayAbbreviation": "ذ",
+      "fridayAbbreviation": "فرنسي",
+      "saturdayAbbreviation": "سا",
+      "sundayAbbreviation": "سو",
+      "showNextMonth": "عرض الشهر القادم {{month}} {{year}}",
+      "showPreviousMonth": "إظهار الشهر السابق، {{month}} {{year}}",
+      "rangeStart": "بداية المدى",
+      "inRange": "في النطاق",
+      "rangeEnd": "نهاية المدى",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} عنصر متاح",
+        "other": "{{count}} عناصر متاحة"
+      },
+      "removeItem": "إزالة {{label}}",
+      "removeTag": "إزالة العلامة",
+      "month": {
+        "one": "شهر",
+        "other": "شهور"
+      },
+      "mapClusterTitle": {
+        "one": "مجموعة من {{number}} علامة",
+        "other": "مجموعة من {{number}} علامة"
+      },
+      "expandSheet": "يوسع",
+      "qrCode": "رمز الاستجابة السريعة",
+      "addFile": "إضافة ملف",
+      "dropzoneInvalidFileType": "نوع الملف غير مدعوم",
+      "dropzoneDraggedOver": "إسقاط الملف للتحميل"
     }
   }
 }
