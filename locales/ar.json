@@ -1338,7 +1338,20 @@
         "governorate_placeholder": "محافظة",
         "emirate_label": "الإمارة",
         "emirate_placeholder": "الإمارة",
-        "phone_label": "هاتف"
+        "phone_label": "هاتف",
+        "delivery_option_title": "طريقة التسليم",
+        "stored_addresses_label": "العناوين المحفوظة",
+        "available_addresses_label": "العناوين المتاحة",
+        "new_address_label": "استخدم عنوان جديد",
+        "optional_first_name_label": "الاسم الأول (اختياري)",
+        "company_attention_label": "الشركة/الاهتمام",
+        "optional_company_label": "الشركة (اختياري)",
+        "address2_label": "شقة، جناح، الخ.",
+        "country_label": "البلد/المنطقة",
+        "country_code": "رمز الدولة/المنطقة",
+        "region_none": "لم يتم تحديد أي شيء",
+        "state_and_territory_label": "الدولة/الإقليم",
+        "state_and_territory_placeholder": "الدولة/الإقليم"
       },
       "delivery_options": {
         "free_total_label": "حر",
@@ -1667,8 +1680,20 @@
           "expand": "يوسع"
         },
         "dropzone": {
-          "add_file": "إضافة ملف"
-        }
+          "add_file": "إضافة ملف",
+          "invalid_file_type": "نوع الملف غير مدعوم",
+          "dragged_over": "إسقاط الملف للتحميل"
+        },
+        "loading_title": "الدفع - {{shopName}}",
+        "confirm_order_button_label": "تأكيد الطلب",
+        "submit_order_button_label": "إرسال الطلب",
+        "submit_for_review_button_label": "تقديم للمراجعة",
+        "autocomplete_zero_item": "لا يوجد عناصر متاحة",
+        "stepper": {
+          "increase": "زيادة {{type}}",
+          "decrease": "تقليل {{type}}"
+        },
+        "remove_item": "إزالة %{label}"
       },
       "thank_you": {
         "gift_card_email_title": {
@@ -1726,7 +1751,10 @@
         "contact_us_lowercase": "اتصل بنا",
         "login": "تسجيل الدخول",
         "fulfillment": {
-          "quantity_label": "كمية"
+          "quantity_label": "كمية",
+          "fulfilled_table_title": "العناصر الموجودة في هذه الشحنة",
+          "product_image_label": "صورة المنتج",
+          "description_label": "وصف"
         },
         "order_updates_submit_subscription": "يُقدِّم",
         "breadcrumbs_submitted": "مُقَدَّم",
@@ -1735,7 +1763,52 @@
         "missing_shipping_address_banner": {
           "contact_us": "اتصل بنا"
         },
-        "location_title": "موقع"
+        "location_title": "موقع",
+        "resend_gift_cards": "إعادة إرسال بطاقات الهدايا",
+        "thank_you_title": "تم تأكيد طلبك",
+        "thank_you_title_payments_app_pending_buyer_action_required": "لقد تم استلام طلبك",
+        "order_updates_title": "تحديثات الطلب",
+        "order_updates_current_step_prefix": "الخطوة الحالية: ",
+        "order_updates_past_step_prefix": "الخطوة الماضية: ",
+        "order_updates_upcoming_step_prefix": "الخطوة القادمة: ",
+        "out_for_delivery": "خارج للتسليم",
+        "attempted_delivery": "محاولة التسليم",
+        "attempted_delivery_local_title": "تسليم فائت",
+        "failure": "لم يتم التسليم",
+        "non_shippable_title": "تم إكمال طلبك",
+        "let_us_know": "أخبرنا",
+        "login_reorder_link_text": {
+          "one": "اشتري هذا المنتج أيضا",
+          "other": "اشتري هذه المنتجات أيضا"
+        },
+        "order_number_label": "رقم الطلب",
+        "unfulfilled_items_title": "التحضير للشحن",
+        "marker": {
+          "shipping": "عنوان الشحن"
+        },
+        "pick_up_in_store_marker": {
+          "shipping": "مكان الاستلام"
+        },
+        "track_shipment": "تتبع الشحنة",
+        "other_options": "خيارات أخرى",
+        "delivery_information_label": "معلومات التسليم:",
+        "gift_card_sent_confirmation": "تم إرسال بطاقات الهدايا",
+        "qr_code": {
+          "title": "تتبع على هاتفك"
+        },
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "المسح الضوئي باستخدام هاتفك"
+          }
+        },
+        "view_business_customer_account": "عرض الحساب",
+        "first_payment_complete": "تم إتمام الدفعة الأولى",
+        "in_store_purchase": "الشراء داخل المتجر",
+        "ready_for_delivery": "جاهز للتسليم",
+        "subscriptions_management": {
+          "title": "الاشتراك"
+        },
+        "manage_order_label": "إدارة طلبك"
       },
       "vaulted": {
         "change_button": "يتغير"
@@ -2178,9 +2251,17 @@
         "selector_tab_map": "رسم خريطة",
         "selector_tab_list": "قائمة",
         "paginator": {
-          "next_accessibility_label": "الصفحة التالية"
+          "next_accessibility_label": "الصفحة التالية",
+          "previous_accessibility_label": "الصفحة السابقة"
         },
-        "change": "يتغير"
+        "change": "يتغير",
+        "business_hours": "ساعات العمل",
+        "title": "نقطة الإلتقاط",
+        "selector_tabs": "محدد نقطة الالتقاط",
+        "no_pickup_points_found": "لم يتم العثور على نقاط التقاط",
+        "geolocation": {
+          "shared_location_button": "استخدم موقعي"
+        }
       },
       "company_location": {
         "location_title": "موقع"
@@ -2199,16 +2280,20 @@
       "subscriptions": {
         "recurring_total_intervals": {
           "day": {
-            "one": "يوم"
+            "one": "يوم",
+            "other": "%{count} يوم"
           },
           "week": {
-            "one": "أسبوع"
+            "one": "أسبوع",
+            "other": "%{count} أسابيع"
           },
           "month": {
-            "one": "شهر"
+            "one": "شهر",
+            "other": "%{count} شهر"
           },
           "year": {
-            "one": "سنة"
+            "one": "سنة",
+            "other": "%{count} سنة"
           }
         }
       },
@@ -2218,11 +2303,27 @@
           "available": "متاح",
           "sold_out": "نفذ"
         },
-        "title": "طابور"
+        "title": "طابور",
+        "too_many_attempts": {
+          "message": "محاولات كثيرة"
+        },
+        "inventory": {
+          "sold_out": {
+            "heading": "تم بيع سلة التسوق الخاصة بك",
+            "link": "العودة إلى المتجر"
+          }
+        }
       },
       "notice_banner": {
         "all_violations_email_link": "بريد إلكتروني",
-        "editable_shipping_address_violations_email_link": "اتصل بنا"
+        "editable_shipping_address_violations_email_link": "اتصل بنا",
+        "return_to_cart_link_text": "العودة إلى سلة التسوق",
+        "individual_violations_title": {
+          "DeliveryViolations": "عنوان الشحن",
+          "PaymentViolations": "عنوان الفاتورة",
+          "OtherViolations": "معلومات الطلب",
+          "UnhandledViolations": "معلومات الطلب"
+        }
       },
       "marketplaces": {
         "legal_notice": {
@@ -2234,14 +2335,57 @@
         "or": "أو",
         "cancel": "يلغي",
         "paginator": {
-          "next": "الصفحة التالية"
-        }
+          "next": "الصفحة التالية",
+          "previous": "الصفحة السابقة"
+        },
+        "toggle_location": "تغيير موقعي",
+        "your_location": "موقعك",
+        "search_button": "البحث عن المتاجر",
+        "no_stores_found": "لم يتم العثور على متاجر"
       },
       "clipboard": {
-        "copied": "تم نسخها"
+        "copied": "تم نسخها",
+        "failed_to_copy": "فشل في النسخ"
       },
       "wallets": {
-        "shipping_line_label": "شحن"
+        "shipping_line_label": "شحن",
+        "return_to_store": "العودة إلى المتجر",
+        "return_to_checkout": "العودة إلى الخروج",
+        "logged_in": "متصل بـ {{email}}",
+        "payment_in_progress_title": "الدفع قيد التنفيذ",
+        "errors": {
+          "invalid": {
+            "email": "أدخل بريد إلكتروني صالح",
+            "emirate": "أدخل إمارة صالحة"
+          },
+          "missing": {
+            "first_name": "أدخل الاسم الأول",
+            "last_name": "أدخل اسم العائلة",
+            "address1": "أدخل عنوانا",
+            "city": "أدخل المدينة",
+            "phone": "أدخل رقم الهاتف"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "طرق الدفع",
+        "title": "طرق الدفع",
+        "update_card_button_label": "تحديث البطاقة"
+      },
+      "no_address_location": {
+        "email_us_button_label": "أرسل لنا بريدا إلكترونيا"
+      },
+      "error_page": {
+        "terminal": {
+          "action": {
+            "cta": "تحديث الصفحة"
+          }
+        }
+      },
+      "shop_pay_external": {
+        "title": "التسوق والدفع",
+        "return_to_store": "العودة إلى {{shopName}}",
+        "return_to_store_simple": "العودة إلى المتجر"
       }
     },
     "email_marketing": {
