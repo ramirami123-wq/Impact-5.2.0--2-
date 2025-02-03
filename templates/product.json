@@ -131,10 +131,51 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "press_F47GPw": {
+      "type": "press",
+      "blocks": {
+        "quote_C7B3YY": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Highly Recommend!",
+            "show_rating": true,
+            "rating": 4
+          }
+        },
+        "quote_n4JKRU": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Super Easy To Redeem!",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_C7B3YY",
+        "quote_n4JKRU"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "press_F47GPw"
   ]
 }
