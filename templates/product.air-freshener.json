@@ -69,6 +69,14 @@
           "settings": {
             "collapse_content": false
           }
+        },
+        "collapsible_text_TTxYfx": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "How To Use",
+            "content": "<p>Choose your favorite scent – Lavender, Bubble, or Vanilla.</p><p>Remove the air freshener from its packaging.</p><p>Spray it in your car.</p><p>Enjoy your car's new refreshing fragrance!</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -80,7 +88,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description"
+        "description",
+        "collapsible_text_TTxYfx"
       ],
       "custom_css": [
         ".button--xl {animation: shopifyshake 4s; animation-iteration-count: infinite;}"
@@ -276,25 +285,25 @@
         "progress_height_mobile": 6,
         "progress_show_desktop": true,
         "progress_show_mobile": true,
-        "card_bg_color": "#F8F8F8",
+        "card_bg_color": "#f8f8f8",
         "card_border_color": "#000000",
         "card_shadow_color": "#000000",
-        "title_color": "#B8B8B8",
+        "title_color": "#b8b8b8",
         "text_color": "#000000",
         "author_color": "#000000",
-        "arrow_color": "#E6E6E6",
-        "arrow_hover_color": "#A7A7A4",
-        "arrow_bg_color": "#FFFFFF",
-        "arrow_bg_hover_color": "#FFFFFF",
-        "arrow_border_color": "#FFFFFF",
-        "arrow_border_hover_color": "#FFFFFF",
-        "progress_bg_color": "#D9D9D9",
+        "arrow_color": "#e6e6e6",
+        "arrow_hover_color": "#a7a7a4",
+        "arrow_bg_color": "#ffffff",
+        "arrow_bg_hover_color": "#ffffff",
+        "arrow_border_color": "#ffffff",
+        "arrow_border_hover_color": "#ffffff",
+        "progress_bg_color": "#d9d9d9",
         "progress_color": "#838383",
         "heading_color": "#000000",
         "bottom_color": "#000000",
         "rating_text_color": "#000000",
-        "stars_color": "#F4AC03",
-        "background_color": "#FFFFFF",
+        "stars_color": "#f4ac03",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
