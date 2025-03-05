@@ -149,10 +149,29 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "scrolling_text_QTPFnV": {
+      "type": "scrolling-text",
+      "custom_css": [
+        "* {padding: 0.2rem;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "text": "DELIVERY ALL OVER LEBANON",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "#f0c417",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
     }
   },
   "order": [
     "main",
+    "scrolling_text_QTPFnV",
     "related-products",
     "174114836094bad726"
   ]
