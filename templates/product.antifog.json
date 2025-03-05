@@ -36,6 +36,7 @@
         },
         "separator": {
           "type": "separator",
+          "disabled": true,
           "settings": {}
         },
         "variant_picker": {
