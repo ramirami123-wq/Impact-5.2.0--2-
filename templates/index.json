@@ -49,270 +49,41 @@
         "background_gradient": "radial-gradient(rgba(233, 196, 54, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "scrolling-text": {
-      "type": "scrolling-text",
+    "featured_collection_Xqi8hA": {
+      "type": "featured-collection",
       "settings": {
+        "collection": "",
+        "products": [
+          "air-freshner",
+          "graphene-coating",
+          "la2ta-plastic-restorer",
+          "la2ta-™-anti-fog-spray",
+          "scratch-eraser",
+          "shoes-cleaner"
+        ],
         "full_width": true,
-        "text": "Limited-Time Burger King Deals",
-        "text_size": "large",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 5,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
-      }
-    },
-    "featured-product": {
-      "type": "featured-product",
-      "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "badges": {
-          "type": "badges",
-          "settings": {}
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
-        "variant-picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "color",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
-        "quantity-selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy-buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "vendor",
-        "title",
-        "badges",
-        "price",
-        "rating",
-        "separator",
-        "description",
-        "variant-picker",
-        "quantity-selector",
-        "buy-buttons"
-      ],
-      "settings": {
-        "full_width": true,
-        "product": "",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
-      }
-    },
-    "press_kXGz9J": {
-      "type": "press",
-      "blocks": {
-        "quote_PyyRhz": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Highly Recommend!",
-            "show_rating": true,
-            "rating": 4
-          }
-        },
-        "quote_E6PAJ7": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Super Easy to Redeem!",
-            "show_rating": true,
-            "rating": 4
-          }
-        }
-      },
-      "block_order": [
-        "quote_PyyRhz",
-        "quote_E6PAJ7"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Products",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
         "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
-    },
-    "rich_text_hBrJXy": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_YkVW8K": {
-          "type": "heading",
-          "settings": {
-            "text": "A BURGER KING COUPON?! ARE YOU SERIOUS?! 🍔",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_BFagFN": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h3>Why You NEED This Deal!</h3>"
-          }
-        },
-        "image_4Fxj6T": {
-          "type": "image",
-          "settings": {
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
-        "richtext_jzN3kU": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Because <strong>everyone loves a delicious discount!</strong></p><p>Imagine <strong>sinking your teeth into a flame-grilled Whopper, crispy fries, and an ice-cold drink—while saving money!</strong> This <strong>Burger King coupon</strong> gives you <strong>exclusive savings</strong> on your favorite meal. No gimmicks, no hassle—just <strong>big flavors at a smaller price!</strong></p><h3>🔥 <strong>DON’T MISS OUT – REDEEM IT NOW!</strong> 🔥</h3><h4>Why You Should NEVER Skip This Deal!</h4><p>❌ <strong>Paying full price? No way!</strong></p><p>Skipping this offer means <strong>missing out on delicious savings</strong>. Whether you're craving a <strong>Whopper, nuggets, or a crispy chicken sandwich</strong>, this deal <strong>makes every bite even better!</strong></p><h4></h4>"
-          }
-        },
-        "button_TRG8Er": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "Button text",
-            "url": "",
-            "background": "#ff5757",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_YkVW8K",
-        "richtext_BFagFN",
-        "image_4Fxj6T",
-        "richtext_jzN3kU",
-        "button_TRG8Er"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "impact_text_3B9GEf": {
-      "type": "impact-text",
-      "blocks": {
-        "item_UbcrKm": {
-          "type": "item",
-          "settings": {
-            "title": "6000+",
-            "subheading": "FOOD LOVERS",
-            "content": "<p>Trust <strong>FOOZ</strong> Coupons for <strong>Delicious Deals & Big Savings on Every Bite! 🍔🔥</strong></p>",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "item_UbcrKm"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "revealed_image_on_scroll_fPMbFb": {
-      "type": "revealed-image-on-scroll",
-      "settings": {
-        "subheading": "",
-        "title": "Reveal text on scroll",
-        "background": "",
-        "text_color_inside": "#000000",
-        "text_color_outside": "#000000"
+        "product_card_background": "",
+        "product_card_text_color": ""
       }
     }
   },
   "order": [
     "slideshow",
-    "scrolling-text",
-    "featured-product",
-    "press_kXGz9J",
-    "rich_text_hBrJXy",
-    "impact_text_3B9GEf",
-    "revealed_image_on_scroll_fPMbFb"
+    "featured_collection_Xqi8hA"
   ]
 }
