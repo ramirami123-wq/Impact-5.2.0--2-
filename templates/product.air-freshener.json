@@ -24,10 +24,10 @@
             "show_taxes_notice": false
           }
         },
-        "rating": {
-          "type": "rating",
+        "text_egcxmt": {
+          "type": "text",
           "settings": {
-            "show_empty": false
+            "text": "<p><strong>💵 Money-Back Guarantee:</strong> Get a full refund if you're not satisfied.</p><p><strong>🌿 Instantly Freshens:</strong> Eliminates odors and leaves a long-lasting scent.</p><p><strong>🚘 Luxurious Scents:</strong> Enjoy a clean, refreshing aroma with Lavender, Bubble, or Vanilla.</p>"
           }
         },
         "payment_terms": {
@@ -82,7 +82,7 @@
       "block_order": [
         "title",
         "price",
-        "rating",
+        "text_egcxmt",
         "payment_terms",
         "separator",
         "variant_picker",
