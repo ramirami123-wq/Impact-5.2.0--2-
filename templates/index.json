@@ -15,11 +15,12 @@
         "slide-2": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Green_Gray_Playful_Geometric_Fashion_Product_Exclusive_Collection_Ad_Instagram_Story_1.png",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "title": "UNLOCK EXCLUSIVE BURGER KING DEALS!",
+            "title": "",
             "heading_tag": "h1",
             "button_text": "",
             "button_link": "",
@@ -27,7 +28,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
@@ -37,15 +38,15 @@
         "slide-2"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": true,
-        "image_size": "lg",
+        "image_size": "sm",
         "controls_type": "numbers",
         "transition_type": "fade_with_text",
         "autoplay": true,
         "cycle_speed": 6,
         "background": "#f2f2f2",
-        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+        "background_gradient": "radial-gradient(rgba(233, 196, 54, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
     "scrolling-text": {
@@ -220,7 +221,6 @@
         "image_4Fxj6T": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/APPLE_WATCH_BANDS__1_-removebg-preview.png",
             "width_mode": "custom",
             "max_width": 600,
             "mobile_max_width": 400
