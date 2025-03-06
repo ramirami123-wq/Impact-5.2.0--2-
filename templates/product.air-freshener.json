@@ -59,18 +59,18 @@
             "payment_button_text_color": ""
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
         "collapsible_text_TTxYfx": {
           "type": "collapsible_text",
           "settings": {
             "title": "How To Use",
             "content": "<p>Choose your favorite scent – Lavender, Bubble, or Vanilla.</p><p>Remove the air freshener from its packaging.</p><p>Spray it in your car.</p><p>Enjoy your car's new refreshing fragrance!</p>",
             "page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
           }
         }
       },
@@ -81,8 +81,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "collapsible_text_TTxYfx"
+        "collapsible_text_TTxYfx",
+        "description"
       ],
       "custom_css": [
         ".button--xl {animation: shopifyshake 4s; animation-iteration-count: infinite;}"
@@ -151,8 +151,8 @@
         "testimonial_jVBEUk": {
           "type": "testimonial",
           "settings": {
-            "title": "amazing!",
-            "text": "The Scratch Premium Remover made the scratches on my car almost disappear. It was easy to apply, and the results were unbelievable.",
+            "title": "smells incredible!",
+            "text": "The Air Freshener keeps my car fresh for weeks without being overpowering. The Air Freshener makes every drive feel like a new experience.",
             "hide_avatar": true,
             "author": "Mohammad K.",
             "stars_count": 5
@@ -171,8 +171,8 @@
         "testimonial_A9Adpm": {
           "type": "testimonial",
           "settings": {
-            "title": "insane shine!",
-            "text": "Graphene Coating makes water and dirt slide off effortlessly. It has made washing my car so much easier. it is like a professional detail in a bottle!",
+            "title": "insane",
+            "text": "It keeps my car smelling amazing without needing constant reapplication. The Air Freshener has a natural, refreshing scent that everyone compliments.",
             "hide_avatar": true,
             "author": "Tarek A.",
             "stars_count": 5
@@ -181,8 +181,8 @@
         "testimonial_ypqz7E": {
           "type": "testimonial",
           "settings": {
-            "title": "No more fogging up!",
-            "text": "Anti-Fog Spray eliminated the condensation issues I used to deal with every morning. It works instantly and provides long-lasting clarity.",
+            "title": "Must-Have",
+            "text": "This Freshener has a natural fragrance that doesn’t fade quickly. The Air Freshener makes my car feel brand new every time I step in!",
             "hide_avatar": true,
             "author": "Lara S.",
             "stars_count": 5
@@ -192,7 +192,7 @@
           "type": "testimonial",
           "settings": {
             "title": "My car is back to life!",
-            "text": "Car Plastic Restorer made my interior look brand new again. it was easy to apply, and the transformation was amazing.",
+            "text": "I received the Air Freshener, it eliminates all bad odors and fills my car with a clean scent. The Air Freshener is long-lasting and doesn’t require constant spraying.",
             "hide_avatar": true,
             "author": "Karim M.",
             "stars_count": 5
