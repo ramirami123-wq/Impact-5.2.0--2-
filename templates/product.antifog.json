@@ -67,18 +67,18 @@
             "payment_button_text_color": ""
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
         "collapsible_text_TTxYfx": {
           "type": "collapsible_text",
           "settings": {
             "title": "How To Use",
             "content": "<p>Choose your favorite scent – Lavender, Bubble, or Vanilla.</p><p>Remove the air freshener from its packaging.</p><p>Spray it in your car.</p><p>Enjoy your car's new refreshing fragrance!</p>",
             "page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
           }
         }
       },
@@ -91,8 +91,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "collapsible_text_TTxYfx"
+        "collapsible_text_TTxYfx",
+        "description"
       ],
       "custom_css": [
         ".button--xl {animation: shopifyshake 4s; animation-iteration-count: infinite;}"
@@ -162,7 +162,7 @@
           "type": "testimonial",
           "settings": {
             "title": "amazing!",
-            "text": "The Scratch Premium Remover made the scratches on my car almost disappear. It was easy to apply, and the results were unbelievable.",
+            "text": "The Anti-Fog Spray completely stopped my mirrors and windows from fogging up. The Anti-Fog Spray lasts a long time and doesn’t leave streaks.",
             "hide_avatar": true,
             "author": "Mohammad K.",
             "stars_count": 5
@@ -172,7 +172,7 @@
           "type": "testimonial",
           "settings": {
             "title": "WOW",
-            "text": "Air Freshener keeps my car smelling fresh for weeks without being too strong. Air Freshener makes every drive feel like a brand-new ride. Its a must-have for any car owner!",
+            "text": "Anti-Fog Spray works even in extreme humidity. The Anti-Fog Spray makes a huge difference when driving at night.",
             "hide_avatar": true,
             "author": "Rami L.",
             "stars_count": 5
@@ -182,7 +182,7 @@
           "type": "testimonial",
           "settings": {
             "title": "insane shine!",
-            "text": "Graphene Coating makes water and dirt slide off effortlessly. It has made washing my car so much easier. it is like a professional detail in a bottle!",
+            "text": "I tested the Anti-Fog Spray this morning, and my windshield stayed completely clear. The Anti-Fog Spray is a must-have for winter!",
             "hide_avatar": true,
             "author": "Tarek A.",
             "stars_count": 5
@@ -201,8 +201,8 @@
         "testimonial_Urenh7": {
           "type": "testimonial",
           "settings": {
-            "title": "My car is back to life!",
-            "text": "Car Plastic Restorer made my interior look brand new again. it was easy to apply, and the transformation was amazing.",
+            "title": "Nice",
+            "text": "stops my windshield from fogging up instantly. The Anti-Fog Spray makes visibility perfect, even in bad weather. The Anti-Fog Spray is a must-have for winter and rainy days!",
             "hide_avatar": true,
             "author": "Karim M.",
             "stars_count": 5
