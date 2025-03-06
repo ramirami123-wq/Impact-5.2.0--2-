@@ -67,18 +67,18 @@
             "payment_button_text_color": ""
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
         "collapsible_text_TTxYfx": {
           "type": "collapsible_text",
           "settings": {
             "title": "How To Use",
             "content": "<p>Choose your favorite scent – Lavender, Bubble, or Vanilla.</p><p>Remove the air freshener from its packaging.</p><p>Spray it in your car.</p><p>Enjoy your car's new refreshing fragrance!</p>",
             "page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
           }
         }
       },
@@ -91,8 +91,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "collapsible_text_TTxYfx"
+        "collapsible_text_TTxYfx",
+        "description"
       ],
       "custom_css": [
         ".button--xl {animation: shopifyshake 4s; animation-iteration-count: infinite;}"
