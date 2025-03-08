@@ -113,7 +113,7 @@
       "settings": {
         "full_width": true,
         "text": "DELIVERY ALL OVER LEBANON",
-        "text_size": "xsmall",
+        "text_size": "small",
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 10,
