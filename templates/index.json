@@ -38,7 +38,7 @@
         "slide-2"
       ],
       "custom_css": [
-        "{padding-top:20px}"
+        "{padding-top: 60px;}"
       ],
       "settings": {
         "full_width": false,
