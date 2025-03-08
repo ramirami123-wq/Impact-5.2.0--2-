@@ -107,9 +107,7 @@
     },
     "scrolling_text_QTPFnV": {
       "type": "scrolling-text",
-      "custom_css": [
-        "* {padding: 0.2rem;}"
-      ],
+      "custom_css": [],
       "settings": {
         "full_width": true,
         "text": "DELIVERY ALL OVER LEBANON",
