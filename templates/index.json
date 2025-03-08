@@ -37,6 +37,9 @@
       "block_order": [
         "slide-2"
       ],
+      "custom_css": [
+        "{padding-top:20px}"
+      ],
       "settings": {
         "full_width": false,
         "allow_transparent_header": true,
