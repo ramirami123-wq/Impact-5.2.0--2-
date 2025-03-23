@@ -147,6 +147,8 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      "button.product-form__submit.button.button--full-width.button--secondary {display: none;}"
+    ]
   }
 }
