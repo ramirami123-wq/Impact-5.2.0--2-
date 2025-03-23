@@ -9939,3 +9939,6 @@ split-lines {
   display: -webkit-box;
   overflow: hidden;
 }
+button.product-form__submit.button.button--full-width.button--secondary {
+    display: none;
+}
