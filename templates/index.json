@@ -57,12 +57,16 @@
       "settings": {
         "collection": "",
         "products": [
-          "air-freshner",
           "graphene-coating",
           "la2ta-plastic-restorer",
-          "la2ta-™-anti-fog-spray",
           "scratch-eraser",
-          "shoes-cleaner"
+          "3-in-1-vacuum-cleaner",
+          "cleaning-gel",
+          "magic-hose",
+          "microfiber-cleaning-pad",
+          "prime-shine",
+          "pump-sprayer",
+          "rim-brush"
         ],
         "full_width": true,
         "stack_products": true,
