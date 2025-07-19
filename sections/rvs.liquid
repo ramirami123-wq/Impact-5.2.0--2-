@@ -89,88 +89,102 @@
 {% endschema %}
 
 <style>
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+}
+
+.review-card {
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  transition: transform 0.2s;
+}
+
+.review-card:hover {
+  transform: translateY(-4px);
+}
+
+.review-image {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 0.8rem;
+  background: #f3f4f6;
+}
+
+.review-name {
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: #111827;
+}
+
+.verified-badge {
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #2563eb;
+  margin-bottom: 0.4rem;
+}
+
+.verified-badge::before {
+  content: '✔';
+  color: #3b82f6;
+  margin-right: 0.3rem;
+}
+
+.review-stars {
+  display: flex;
+  gap: 0.1rem;
+  margin-bottom: 0.6rem;
+}
+
+.review-stars span {
+  color: #fbbf24;
+  font-size: 1.25rem;
+}
+
+.review-stars .empty {
+  color: #d1d5db;
+}
+
+.review-text {
+  color: #374151;
+  line-height: 1.6;
+  margin-top: auto;
+  word-break: break-word;
+}
+
+/* Text size utilities */
+.text-lg { font-size: 1.125rem; }
+.text-xl { font-size: 1.25rem; }
+.text-2xl { font-size: 1.5rem; }
+.text-3xl { font-size: 1.875rem; }
+
+/* Force 2 columns on small screens */
+@media (max-width: 640px) {
   .reviews-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
-    padding: 2.5rem 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
   }
-
-  .review-card {
-    background: #ffffff;
-    border-radius: 1rem;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
-    padding: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    transition: transform 0.2s ease, box-shadow 0.3s ease;
-    border: 1px solid #f1f5f9;
-  }
-
-  .review-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
-  }
-
   .review-image {
-    width: 100%;
-    height: 180px;
-    object-fit: contain;
-    background-color: #f9fafb;
-    border-radius: 0.75rem;
-    margin-bottom: 1rem;
+    height: 140px;
   }
-
-  .review-name {
-    font-weight: 700;
-    color: #111827;
-    margin-bottom: 0.3rem;
-    line-height: 1.2;
-  }
-
-  .review-stars {
-    display: flex;
-    gap: 0.1rem;
-    margin: 0.4rem 0 0.8rem;
-    font-size: 1.25rem;
-  }
-
-  .review-stars span {
-    color: #f59e0b;
-  }
-
-  .review-stars .empty {
-    color: #d1d5db;
-  }
-
-  .review-text {
-    color: #374151;
-    line-height: 1.6;
-    margin-top: auto;
-  }
-
-  /* Font utilities */
-  .text-lg { font-size: 1.125rem; }
-  .text-xl { font-size: 1.25rem; }
-  .text-2xl { font-size: 1.5rem; }
-  .text-3xl { font-size: 1.875rem; }
-
-  /* Force 2-column layout on phones */
-  @media (max-width: 640px) {
-    .reviews-grid {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 1rem;
-    }
-
-    .review-image {
-      height: 150px;
-    }
-  }
+}
 </style>
 
 <div class="reviews-grid">
   {% for block in section.blocks %}
-    <article class="review-card" {{ block.shopify_attributes }}>
+    <article class="review-card" {{ block.shopify_attributes }} dir="auto">
       {% if block.settings.image != blank %}
         <img 
           src="{{ block.settings.image | image_url: width: 600 }}" 
@@ -183,6 +197,8 @@
       <h3 class="review-name {{ section.settings.name_size }}">
         {{ block.settings.name }}
       </h3>
+
+      <div class="verified-badge">Verified Buyer</div>
 
       <div 
         class="review-stars {{ section.settings.star_size }}" 
