@@ -1,3 +1,5 @@
+<!-- Full "Reviews 2" Section with ✔️ Verified Buyer matching screenshot style -->
+
 {% schema %}
 {
   "name": "Reviews 2",
@@ -128,18 +130,13 @@
 }
 
 .verified-badge {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2563eb;
+  margin-bottom: 0.5rem;
   display: flex;
   align-items: center;
-  font-size: 0.95rem;
-  font-weight: 500;
-  color: #2563eb;
-  margin-bottom: 0.4rem;
-}
-
-.verified-badge::before {
-  content: '✔';
-  color: #3b82f6;
-  margin-right: 0.3rem;
+  gap: 0.3rem;
 }
 
 .review-stars {
@@ -170,12 +167,13 @@
 .text-2xl { font-size: 1.5rem; }
 .text-3xl { font-size: 1.875rem; }
 
-/* Force 2 columns on small screens */
+/* 2-column layout for phones */
 @media (max-width: 640px) {
   .reviews-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
+
   .review-image {
     height: 140px;
   }
@@ -198,7 +196,9 @@
         {{ block.settings.name }}
       </h3>
 
-      <div class="verified-badge">Verified Buyer</div>
+      <div class="verified-badge">
+        ✔️ Verified Buyer
+      </div>
 
       <div 
         class="review-stars {{ section.settings.star_size }}" 
