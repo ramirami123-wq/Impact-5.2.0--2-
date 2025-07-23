@@ -103,6 +103,39 @@
         "input_text_color": ""
       }
     },
+    "revs_ee2_dfiUd6": {
+      "type": "revs--ee2",
+      "blocks": {
+        "review_3Aage9": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/H4a5ba08a67654061bf75efe6ee4160faO.jpg_720x720q50_73a7ea33-bec9-484f-9eac-2ab6c1caaf0d.jpg",
+            "name": "Sirene M.",
+            "stars": 5,
+            "text": "product ktir mneeh shale kil taje3id bi 3 weeks"
+          }
+        },
+        "review_yxMPGH": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/mistspray2.jpg",
+            "name": "Samia H.",
+            "stars": 5,
+            "text": "This product is amazing. Highly recommended!"
+          }
+        }
+      },
+      "block_order": [
+        "review_3Aage9",
+        "review_yxMPGH"
+      ],
+      "name": "Reviews 2",
+      "settings": {
+        "name_size": "text-3xl",
+        "star_size": "text-2xl",
+        "text_size": "text-lg"
+      }
+    },
     "scrolling_text_QTPFnV": {
       "type": "scrolling-text",
       "custom_css": [
@@ -308,46 +341,13 @@
         "border_thickness": 0,
         "lazy": true
       }
-    },
-    "revs_ee2_dfiUd6": {
-      "type": "revs--ee2",
-      "blocks": {
-        "review_3Aage9": {
-          "type": "review",
-          "settings": {
-            "image": "shopify://shop_images/H4a5ba08a67654061bf75efe6ee4160faO.jpg_720x720q50_73a7ea33-bec9-484f-9eac-2ab6c1caaf0d.jpg",
-            "name": "Sirene M.",
-            "stars": 5,
-            "text": "product ktir mneeh shale kil taje3id bi 3 weeks"
-          }
-        },
-        "review_yxMPGH": {
-          "type": "review",
-          "settings": {
-            "image": "shopify://shop_images/mistspray2.jpg",
-            "name": "Samia H.",
-            "stars": 5,
-            "text": "This product is amazing. Highly recommended!"
-          }
-        }
-      },
-      "block_order": [
-        "review_3Aage9",
-        "review_yxMPGH"
-      ],
-      "name": "Reviews 2",
-      "settings": {
-        "name_size": "text-3xl",
-        "star_size": "text-2xl",
-        "text_size": "text-lg"
-      }
     }
   },
   "order": [
     "main",
+    "revs_ee2_dfiUd6",
     "scrolling_text_QTPFnV",
     "related-products",
-    "rev_DEGTwf",
-    "revs_ee2_dfiUd6"
+    "rev_DEGTwf"
   ]
 }
