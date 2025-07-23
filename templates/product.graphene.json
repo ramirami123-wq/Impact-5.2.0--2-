@@ -115,6 +115,39 @@
         "input_text_color": ""
       }
     },
+    "rvs_ee2_wgR6F3": {
+      "type": "Rvs-ee2",
+      "blocks": {
+        "review_QUQTBC": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-04-07_110058.png",
+            "name": "Rani Abi Fakher",
+            "stars": 4,
+            "text": "product bejanen ma sad2ton w2ta shefto bl video bas elt 5aline jrbo w tole3 product bejanen"
+          }
+        },
+        "review_cWh4M3": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/before-after-plastic-restoration-2.jpg",
+            "name": "Pamela Berkachi",
+            "stars": 5,
+            "text": "wow product bi 3a2ed"
+          }
+        }
+      },
+      "block_order": [
+        "review_QUQTBC",
+        "review_cWh4M3"
+      ],
+      "name": "Reviews 2",
+      "settings": {
+        "name_size": "text-3xl",
+        "star_size": "text-3xl",
+        "text_size": "text-xl"
+      }
+    },
     "scrolling_text_QTPFnV": {
       "type": "scrolling-text",
       "custom_css": [
@@ -320,46 +353,13 @@
         "border_thickness": 0,
         "lazy": true
       }
-    },
-    "rvs_ee2_wgR6F3": {
-      "type": "Rvs-ee2",
-      "blocks": {
-        "review_QUQTBC": {
-          "type": "review",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-04-07_110058.png",
-            "name": "Rani Abi Fakher",
-            "stars": 4,
-            "text": "product bejanen ma sad2ton w2ta shefto bl video bas elt 5aline jrbo w tole3 product bejanen"
-          }
-        },
-        "review_cWh4M3": {
-          "type": "review",
-          "settings": {
-            "image": "shopify://shop_images/before-after-plastic-restoration-2.jpg",
-            "name": "Pamela Berkachi",
-            "stars": 5,
-            "text": "wow product bi 3a2ed"
-          }
-        }
-      },
-      "block_order": [
-        "review_QUQTBC",
-        "review_cWh4M3"
-      ],
-      "name": "Reviews 2",
-      "settings": {
-        "name_size": "text-3xl",
-        "star_size": "text-3xl",
-        "text_size": "text-xl"
-      }
     }
   },
   "order": [
     "main",
+    "rvs_ee2_wgR6F3",
     "scrolling_text_QTPFnV",
     "related-products",
-    "rev_DEGTwf",
-    "rvs_ee2_wgR6F3"
+    "rev_DEGTwf"
   ]
 }
