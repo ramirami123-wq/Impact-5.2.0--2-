@@ -1,0 +1,319 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#f0c417",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "rating",
+        "payment_terms",
+        "separator",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description"
+      ],
+      "custom_css": [
+        ".button--xl {animation: shopifyshake 4s; animation-iteration-count: infinite;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "scrolling_text_QTPFnV": {
+      "type": "scrolling-text",
+      "custom_css": [
+        "* {padding: 0.2rem;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "text": "DELIVERY ALL OVER LEBANON",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "#f0c417",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "rev_DEGTwf": {
+      "type": "rev",
+      "blocks": {
+        "testimonial_jVBEUk": {
+          "type": "testimonial",
+          "settings": {
+            "title": "amazing!",
+            "text": "The Scratch Premium Remover made the scratches on my car almost disappear. It was easy to apply, and the results were unbelievable.",
+            "hide_avatar": true,
+            "author": "Mohammad K.",
+            "stars_count": 5
+          }
+        },
+        "testimonial_zr3hVb": {
+          "type": "testimonial",
+          "settings": {
+            "title": "WOW",
+            "text": "Air Freshener keeps my car smelling fresh for weeks without being too strong. Air Freshener makes every drive feel like a brand-new ride. Its a must-have for any car owner!",
+            "hide_avatar": true,
+            "author": "Rami L.",
+            "stars_count": 5
+          }
+        },
+        "testimonial_A9Adpm": {
+          "type": "testimonial",
+          "settings": {
+            "title": "insane shine!",
+            "text": "Graphene Coating makes water and dirt slide off effortlessly. It has made washing my car so much easier. it is like a professional detail in a bottle!",
+            "hide_avatar": true,
+            "author": "Tarek A.",
+            "stars_count": 5
+          }
+        },
+        "testimonial_ypqz7E": {
+          "type": "testimonial",
+          "settings": {
+            "title": "No more fogging up!",
+            "text": "Anti-Fog Spray eliminated the condensation issues I used to deal with every morning. It works instantly and provides long-lasting clarity.",
+            "hide_avatar": true,
+            "author": "Lara S.",
+            "stars_count": 5
+          }
+        },
+        "testimonial_Urenh7": {
+          "type": "testimonial",
+          "settings": {
+            "title": "My car is back to life!",
+            "text": "Car Plastic Restorer made my interior look brand new again. it was easy to apply, and the transformation was amazing.",
+            "hide_avatar": true,
+            "author": "Karim M.",
+            "stars_count": 5
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_jVBEUk",
+        "testimonial_zr3hVb",
+        "testimonial_A9Adpm",
+        "testimonial_ypqz7E",
+        "testimonial_Urenh7"
+      ],
+      "settings": {
+        "heading": "<h2><strong>REVIEWS</strong></h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 48,
+        "heading_size_mobile": 32,
+        "heading_height": 130,
+        "heading_align": "center",
+        "bottom": "",
+        "bottom_custom": false,
+        "bottom_font": "josefin_sans_n4",
+        "bottom_size": 18,
+        "bottom_size_mobile": 16,
+        "bottom_height": 130,
+        "bottom_align": "center",
+        "bottom_mt": 24,
+        "rating": 4.9,
+        "rating_hide": false,
+        "rating_align": "center",
+        "rating_custom": false,
+        "rating_font": "josefin_sans_n4",
+        "rating_size": 18,
+        "rating_size_mobile": 16,
+        "rating_height": 130,
+        "rating_mt": 16,
+        "stars_count": 5,
+        "stars_size": 16,
+        "slider_view": "5",
+        "slider_view_mobile": 1.5,
+        "slider_gap": 20,
+        "slider_gap_mobile": 20,
+        "slider_mt": 20,
+        "card_padding_vertical": 24,
+        "card_padding_vertical_mobile": 16,
+        "card_padding_horizontal": 24,
+        "card_padding_horizontal_mobile": 16,
+        "card_radius": 30,
+        "card_border_thickness": 0,
+        "card_shadow": false,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 12,
+        "title_size_mobile": 12,
+        "title_height": 130,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 16,
+        "text_height": 130,
+        "text_mt": 20,
+        "avatar_size": 62,
+        "avatar_size_mobile": 40,
+        "author_custom": false,
+        "author_font": "josefin_sans_n4",
+        "author_size": 18,
+        "author_size_mobile": 16,
+        "author_height": 130,
+        "author_mt": 20,
+        "navigation_mt": 32,
+        "arrow_size": 34,
+        "arrow_size_mobile": 34,
+        "arrow_icon_size": 34,
+        "arrow_icon_size_mobile": 34,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "progress_width": 150,
+        "progress_width_mobile": 150,
+        "progress_height": 6,
+        "progress_height_mobile": 6,
+        "progress_show_desktop": true,
+        "progress_show_mobile": true,
+        "card_bg_color": "#F8F8F8",
+        "card_border_color": "#000000",
+        "card_shadow_color": "#000000",
+        "title_color": "#B8B8B8",
+        "text_color": "#000000",
+        "author_color": "#000000",
+        "arrow_color": "#E6E6E6",
+        "arrow_hover_color": "#A7A7A4",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#FFFFFF",
+        "arrow_border_color": "#FFFFFF",
+        "arrow_border_hover_color": "#FFFFFF",
+        "progress_bg_color": "#D9D9D9",
+        "progress_color": "#838383",
+        "heading_color": "#000000",
+        "bottom_color": "#000000",
+        "rating_text_color": "#000000",
+        "stars_color": "#F4AC03",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 190,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "scrolling_text_QTPFnV",
+    "related-products",
+    "rev_DEGTwf"
+  ]
+}
