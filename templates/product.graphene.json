@@ -336,9 +336,10 @@
         "review_cWh4M3": {
           "type": "review",
           "settings": {
-            "name": "John D.",
+            "image": "shopify://shop_images/before-after-plastic-restoration-2.jpg",
+            "name": "Pamela Berkachi",
             "stars": 5,
-            "text": "This product is amazing. Highly recommended!"
+            "text": "wow product bi 3a2ed"
           }
         }
       },
