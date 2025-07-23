@@ -320,12 +320,45 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "rvs_ee2_wgR6F3": {
+      "type": "Rvs-ee2",
+      "blocks": {
+        "review_QUQTBC": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-04-07_110058.png",
+            "name": "Rani Abi Fakher",
+            "stars": 4,
+            "text": "product bejanen ma sad2ton w2ta shefto bl video bas elt 5aline jrbo w tole3 product bejanen"
+          }
+        },
+        "review_cWh4M3": {
+          "type": "review",
+          "settings": {
+            "name": "John D.",
+            "stars": 5,
+            "text": "This product is amazing. Highly recommended!"
+          }
+        }
+      },
+      "block_order": [
+        "review_QUQTBC",
+        "review_cWh4M3"
+      ],
+      "name": "Reviews 2",
+      "settings": {
+        "name_size": "text-3xl",
+        "star_size": "text-3xl",
+        "text_size": "text-xl"
+      }
     }
   },
   "order": [
     "main",
     "scrolling_text_QTPFnV",
     "related-products",
-    "rev_DEGTwf"
+    "rev_DEGTwf",
+    "rvs_ee2_wgR6F3"
   ]
 }
