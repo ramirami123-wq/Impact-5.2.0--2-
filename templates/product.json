@@ -276,25 +276,25 @@
         "progress_height_mobile": 6,
         "progress_show_desktop": true,
         "progress_show_mobile": true,
-        "card_bg_color": "#F8F8F8",
+        "card_bg_color": "#f8f8f8",
         "card_border_color": "#000000",
         "card_shadow_color": "#000000",
-        "title_color": "#B8B8B8",
+        "title_color": "#b8b8b8",
         "text_color": "#000000",
         "author_color": "#000000",
-        "arrow_color": "#E6E6E6",
-        "arrow_hover_color": "#A7A7A4",
-        "arrow_bg_color": "#FFFFFF",
-        "arrow_bg_hover_color": "#FFFFFF",
-        "arrow_border_color": "#FFFFFF",
-        "arrow_border_hover_color": "#FFFFFF",
-        "progress_bg_color": "#D9D9D9",
+        "arrow_color": "#e6e6e6",
+        "arrow_hover_color": "#a7a7a4",
+        "arrow_bg_color": "#ffffff",
+        "arrow_bg_hover_color": "#ffffff",
+        "arrow_border_color": "#ffffff",
+        "arrow_border_hover_color": "#ffffff",
+        "progress_bg_color": "#d9d9d9",
         "progress_color": "#838383",
         "heading_color": "#000000",
         "bottom_color": "#000000",
         "rating_text_color": "#000000",
-        "stars_color": "#F4AC03",
-        "background_color": "#FFFFFF",
+        "stars_color": "#f4ac03",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -308,12 +308,46 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "revs_ee2_dfiUd6": {
+      "type": "revs--ee2",
+      "blocks": {
+        "review_3Aage9": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/H4a5ba08a67654061bf75efe6ee4160faO.jpg_720x720q50_73a7ea33-bec9-484f-9eac-2ab6c1caaf0d.jpg",
+            "name": "Sirene M.",
+            "stars": 5,
+            "text": "product ktir mneeh shale kil taje3id bi 3 weeks"
+          }
+        },
+        "review_yxMPGH": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/mistspray2.jpg",
+            "name": "Samia H.",
+            "stars": 5,
+            "text": "This product is amazing. Highly recommended!"
+          }
+        }
+      },
+      "block_order": [
+        "review_3Aage9",
+        "review_yxMPGH"
+      ],
+      "name": "Reviews 2",
+      "settings": {
+        "name_size": "text-3xl",
+        "star_size": "text-2xl",
+        "text_size": "text-lg"
+      }
     }
   },
   "order": [
     "main",
     "scrolling_text_QTPFnV",
     "related-products",
-    "rev_DEGTwf"
+    "rev_DEGTwf",
+    "revs_ee2_dfiUd6"
   ]
 }
