@@ -87,10 +87,42 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "rvs_ee2_zWgeVq": {
+      "type": "Rvs-ee2",
+      "blocks": {
+        "review_hJB8ki": {
+          "type": "review",
+          "settings": {
+            "name": "John D.",
+            "stars": 5,
+            "text": "This product is amazing. Highly recommended!"
+          }
+        },
+        "review_Feirhb": {
+          "type": "review",
+          "settings": {
+            "name": "John D.",
+            "stars": 5,
+            "text": "This product is amazing. Highly recommended!"
+          }
+        }
+      },
+      "block_order": [
+        "review_hJB8ki",
+        "review_Feirhb"
+      ],
+      "name": "Reviews 2",
+      "settings": {
+        "name_size": "text-xl",
+        "star_size": "text-xl",
+        "text_size": "text-xl"
+      }
     }
   },
   "order": [
     "slideshow",
-    "featured_collection_Xqi8hA"
+    "featured_collection_Xqi8hA",
+    "rvs_ee2_zWgeVq"
   ]
 }
